@@ -36,7 +36,7 @@ keystone-manage bootstrap --bootstrap-username $KEYSTONE_ADMIN_USER \
 		--bootstrap-service-name keystone \
 		--bootstrap-region-id RegionOne \
 		--bootstrap-service-name keystone \
-		--bootstrap-admin-url "htpp://$HOSTNAME:35357/v3" \
+		--bootstrap-admin-url "http://$HOSTNAME:35357/v3" \
 		--bootstrap-public-url "http://$HOSTNAME:5000/v3" \
 		--bootstrap-internal-url "http://$HOSTNAME:5000/v3"
 
