@@ -3,7 +3,10 @@ Keystone with docker
 
 #### Make an environment file with the params used in the run command(Optional)
 - E.g:
-export KEYSTONE_VERSION=<tag version> [Keystone release versions](https://github.com/openstack/keystone/releases#)
+```
+export KEYSTONE_VERSION=<tag version> 
+```
+- [Keystone release versions](https://github.com/openstack/keystone/releases#)
 - Change the value of "KEYSTONE_VERSION" in the Dockerfile to use another version for now.
 #### Build the image
 ```
